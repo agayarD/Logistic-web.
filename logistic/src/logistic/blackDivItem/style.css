@@ -1,0 +1,94 @@
+.blackDivItem{
+    width: 30%;
+    padding: 0 15px;
+    text-align: center;
+}
+
+
+.blackDivItem_icon{
+    padding: 60px 0 15px;
+}
+
+.blackDivItem_icon div i{
+    font-size: 60px;
+    color: #0371E2;
+}
+
+
+.blackDivItem_text p:first-child{
+    font-weight: 700;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.blackDivItem_text p:last-child{
+    font-weight: 400;
+    color: #706c6c;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.blackDivItem_text p:hover{
+    color: #0371E2;
+    cursor: pointer;
+}
+
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .blackDivItem {
+      width: 100%;
+      padding: 0 10px;
+    }
+    
+    .blackDivItem_icon {
+      padding: 40px 0 15px;
+    }
+    
+    .blackDivItem_icon div i {
+      font-size: 40px;
+    }
+    
+    .blackDivItem_text p:first-child {
+      font-size: 18px;
+    }
+    
+    .blackDivItem_text p:last-child {
+      font-size: 14px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .blackDivItem {
+      width: 50%;
+      padding: 0 10px;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media (min-width: 992px) {
+    .blackDivItem {
+      width: 30%;
+      padding: 0 15px;
+    }
+    
+    .blackDivItem_icon {
+      padding: 60px 0 15px;
+    }
+    
+    .blackDivItem_icon div i {
+      font-size: 60px;
+    }
+    
+    .blackDivItem_text p:first-child {
+      font-size: 22px;
+    }
+    
+    .blackDivItem_text p:last-child {
+      font-size: 16px;
+    }
+  }
+  
+
